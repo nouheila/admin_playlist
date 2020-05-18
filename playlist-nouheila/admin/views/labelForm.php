@@ -29,8 +29,8 @@ ici formulaire d'un label<br><br>
 (isset($_SESSION['old_inputs']) && $_GET['action'] != 'new') ? 'edit&id='.$_GET['id'] : 
 'add'?>" method="post" enctype="multipart/form-data">
 
-	<label for="name">Nom :</label>
-	<input  type="text" name="name" id="name" value="<?= isset($_SESSION['old_inputs']) ? 
+	<label for="label">Nom :</label>
+	<input  type="label" name="label" id="label" value="<?= isset($_SESSION['old_inputs']) ? 
 	$_SESSION['old_inputs']['name'] : '' ?><?= isset($label) ? $label['name'] : '' ?>" /><br>
 	<input type="submit" value="Enregistrer" />
 
