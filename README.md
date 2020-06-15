@@ -1,2 +1,2 @@
 # admin_playlist
-l'admin e la playlist
+l'admin de la playlist
